@@ -1,0 +1,310 @@
+{
+	"description" : "Bea and Jeb discuss breakfast",
+	"icebreaker" : 1,
+	"firstResponse" : 2,
+	"lines" : [
+		{
+			"id" : 1,
+			"character" : "Bea",
+			"responses" : [
+				{
+					"responseType" : "neutral",
+					"words_EN" : "Hello, old friend! Have you seen my breakfast anywhere?",
+					"lineReference" : 2
+				}
+			]
+		},
+
+		{
+			"id" : 2,
+			"character" : "Jeb",
+			"responses" : [
+				{
+					"responseType" : "positive",
+					"words_EN" : "Ooh, I LOVE breakfast! It’s the most important meal of the day, you know. Just ask dr. Gellock!",
+					"lineReference" : 3
+				},
+				{
+					"responseType" : "neutral",
+					"words_EN" : "YOUR breakfast? Why should I know where YOUR breakfast is? Are you accusing me of something? Do I look like a turtle to you?",
+					"lineReference" : 4
+				},
+				{
+					"responseType" : "negative",
+					"words_EN" : "No, and I don’t want to see it either. You’ve probably just eaten it and forgotten about it again.",
+					"lineReference" : 4
+				}
+			]
+		},
+
+		{
+			"id" : 3,
+			"character" : "Bea",
+			"responses" : [
+				{
+					"responseType" : "positive",
+					"words_EN" : "Indeed it is! But I haven’t had any today, because it’s gone missing.",
+					"lineReference" : 5
+				},
+				{
+					"responseType" : "neutral",
+					"words_EN" : "Why does everybody keep saying that? I think someone has stolen my breakfast, and I was hoping you could help me investigate.",
+					"lineReference" : 5
+				},
+				{
+					"responseType" : "negative",
+					"words_EN" : "I KNOW! It’s you, isn’t it. You ate my breakfast, that’s why you’re so happy. Well, give it back!",
+					"lineReference" : 6
+				}
+			]
+		},
+
+		{
+			"id" : 4,
+			"character" : "Bea",
+			"responses" : [
+				{
+					"responseType" : "positive",
+					"words_EN" : "Well, you’re about as helpful as a turtle. I was going to ask you if you could help me look for it. I’ll even share some with you, if we find it!",
+					"lineReference" : 5
+				},
+				{
+					"responseType" : "neutral",
+					"words_EN" : "Hmm. Now, I’m no Nancy Drew, but that’s JUST what someone who’s eaten another person’s breakfast would say! Give me back my corn flakes!",
+					"lineReference" : 6
+				},
+				{
+					"responseType" : "negative",
+					"words_EN" : "Well, you’re no help at all. I’ll get to the bottom of this, whatever it takes! I’ll ask the Three Bears to chop you into little corn flakes!",
+					"lineReference" : 6
+				}
+			]
+		},
+
+		{
+			"id" : 5,
+			"character" : "Jeb",
+			"responses" : [
+				{
+					"responseType" : "positive",
+					"words_EN" : "No problem, let’s get to the bottom of this! Where do you want to start looking?",
+					"lineReference" : 7
+				},
+				{
+					"responseType" : "neutral",
+					"words_EN" : "Okay. But you will have to do something for me in return, or else it isn’t fair.",
+					"lineReference" : 8
+				},
+				{
+					"responseType" : "negative",
+					"words_EN" : "Today? No way, there’s way too much fun going on to waste the day on your breakfast. I do hope you get something to eat soon, though. You seem kind of... crazy. Here, take this apple.",
+					"lineReference" : 9,
+					"inventory" : "apple"
+				}
+			]
+		},
+
+		{
+			"id" : 6,
+			"character" : "Jeb",
+			"responses" : [
+				{
+					"responseType" : "positive",
+					"words_EN" : "That’s stupid. Why would I steal YOUR breakfast? I had a large bowl of MY OWN corn flakes and a banana. I can even prove it, but you’d have to help me.",
+					"lineReference" : 8
+				},
+				{
+					"responseType" : "neutral",
+					"words_EN" : "Hey, come on, don’t be like that. You’re always so short-tempered when you’re hungry. Tell you what, let’s go find out where your breakfast is, I’m sure it’s around here somewhere.",
+					"lineReference" : 7
+				},
+				{
+					"responseType" : "negative",
+					"words_EN" : "Whoa, slow down, I just ate half. Santa Claus ate the other! I’m just joking, I’ll help you. Where do you want to look for it?",
+					"lineReference" : 7,
+					"inventory" : "money"
+				}
+			]
+		},
+
+		{
+			"id" : 7,
+			"character" : "Bea",
+			"responses" : [
+				{
+					"responseType" : "positive",
+					"words_EN" : "Oh you know what? I bet it’s that creepy professor-guy up on the hill. He’s been acting really strange lately, asking everybody about corn flakes... CORN FLAKES! Of course it’s him! Let’s go check out his lab.",
+					"lineReference" : 11
+				},
+				{
+					"responseType" : "neutral",
+					"words_EN" : "Hmmmm. I did hear some strange noises from the forest last night. Not like birds or bears or anything, this weird WOB-WOB-WOB noise. I have a strange feeling we should go investigate up there. Hope you have some comfortable boots!",
+					"lineReference" : 12
+				},
+				{
+					"responseType" : "negative",
+					"words_EN" : "Thank you, I knew I could count on you! Where to look, where to look... Oh! It’s probably the turtles again, that’s the most sensible explanation. They’re always so hungry and have no sense of morals. Lets start looking at the beach",
+					"lineReference" : 13
+				}
+			]
+		},
+
+		{
+			"id" : 11,
+			"character" : "Jeb",
+			"responses" : [
+				{
+					"responseType" : "positive",
+					"words_EN" : "Dr. Gellock? He IS kind of creepy, have you heard him laugh? It’s like: \"Ha. Ha. Ha.\", super weird. Do we HAVE to go to his lab? I don’t care if it’s one of his Open Days today, that place is spooky.",
+					"lineReference" : 0,
+					"flag_companion" : true,
+					"flag_location" : "lab"
+				},
+				{
+					"responseType" : "neutral",
+					"words_EN" : "Not so sure he’d go around stealing people’s food, but he DOES seem to have a weird hang-up about corn flakes... I HOPE he has your breakfast, I’m getting hungry again.",
+					"lineReference" : 0,
+					"flag_companion" : true,
+					"flag_location" : "lab"
+				},
+				{
+					"responseType" : "negative",
+					"words_EN" : "It’s not like everyone who works in a lab is Dr. Frankenstein, you know. Maybe he’s resurrected your breakfast into a monster! \"Now it’s MY turn to eat YOU! Mwahahaha!\" I like dr. Gellock, let’s go say hi.",
+					"lineReference" : 0,
+					"flag_companion" : true,
+					"flag_location" : "lab"
+				}
+			]
+		},
+
+		{
+			"id" : 12,
+			"character" : "Jeb",
+			"responses" : [
+				{
+					"responseType" : "positive",
+					"words_EN" : "WOB-WOB-WOB sounds like bad news. I’m not so sure about this, what kind of breakfast-thieves would make a sound like that? At least the Three Beards are up there, they’ll keep us safe.",
+					"lineReference" : 0,
+					"flag_companion" : true,
+					"flag_location" : "forest"
+				},
+				{
+					"responseType" : "neutral",
+					"words_EN" : "Probably just a bird, it’s always a bird. Or a weather balloon or some other government cover-up. Hey, I bet the government took your breakfast, so they could put a camera in your cereal.",
+					"lineReference" : 0,
+					"flag_companion" : true,
+					"flag_location" : "forest"
+				},
+				{
+					"responseType" : "negative",
+					"words_EN" : "You think I have BOOTS? No way, I prefer my sneaky sneaks. If I see anything that goes WOB-WOB-WOB, I’ll run away faster than you! Every man for himself! Just kidding, let’s go look at some trees.",
+					"lineReference" : 0,
+					"flag_companion" : true,
+					"flag_location" : "forest"
+				}
+			]
+		},
+
+		{
+			"id" : 13,
+			"character" : "Jeb",
+			"responses" : [
+				{
+					"responseType" : "positive",
+					"words_EN" : "Turtles? Are you insane, why would turtles eat your breakfast? Maybe they’ve built a nest out of bananas. YOU’RE bananas. Whatever, let’s go.",
+					"lineReference" : 0,
+					"flag_companion" : true,
+					"flag_location" : "beach"
+				},
+				{
+					"responseType" : "neutral",
+					"words_EN" : "That idea is so stupid it just might be true. Sneaky turtles, I bet they’re just pretending to be slow, and laughing about us in the privacy of their shells. To the beach!",
+					"lineReference" : 0,
+					"flag_companion" : true,
+					"flag_location" : "beach"
+				},
+				{
+					"responseType" : "negative",
+					"words_EN" : "Oh, here you go with the turtles again. What IS it with you and turtles? They eat lettuce, hope your breakfast was going to be a bit more balanced. Turtles!",
+					"lineReference" : 0,
+					"flag_companion" : true,
+					"flag_location" : "beach"
+				}
+			]
+		},
+
+		{
+			"id" : 8,
+			"character" : "Bea",
+			"responses" : [
+				{
+					"responseType" : "positive",
+					"words_EN" : "Fine, I’ll do anything you want. But we need to fint my breakfast FIRST, or I’ll starve half to death. I could eat one of the Three Beards’ beards.",
+					"lineReference" : 10
+				},
+				{
+					"responseType" : "neutral",
+					"words_EN" : "There’s always something like this with you! Why can’t you just do me a favor for once, without asking for something in return?",
+					"lineReference" : 10
+				},
+				{
+					"responseType" : "negative",
+					"words_EN" : "No way, I’ve had enough of your tricks. You’re up to something, I know it. If you want to confess, come see me in the forest.",
+					"lineReference" : 0,
+					"flag_companion" : false,
+					"flag_location" : "forest"
+				}
+			]
+		},
+
+		{
+			"id" : 10,
+			"character" : "Jeb",
+			"responses" : [
+				{
+					"responseType" : "positive",
+					"words_EN" : "Here, you have to finish my homework, this essay on the dangers of swimming. Thank you! Now where do you want to look?",
+					"lineReference" : 7
+				},
+				{
+					"responseType" : "neutral",
+					"words_EN" : "Can you please talk to Mindy for me? Mindy at the diner? I like her a lot, but I’m too scared to ask her out. Just... Just tell her that, I guess. Anyway, where do you want to look?",
+					"lineReference" : 7
+				},
+				{
+					"responseType" : "negative",
+					"words_EN" : "I was just joking, of course I’ll help you. Breakfast is the most important meal of the day, after all! Where do you think it’s gone?",
+					"lineReference" : 7
+				}
+			]
+		},
+
+		{
+			"id" : 9,
+			"character" : "Bea",
+			"responses" : [
+				{
+					"responseType" : "positive",
+					"words_EN" : "Thanks for nothing, TURTLE. I’ll go talk to your friends down at the beach instead.",
+					"lineReference" : 0,
+					"flag_companion" : false,
+					"flag_location" : "beach"
+				},
+				{
+					"responseType" : "neutral",
+					"words_EN" : "That’s okay. I’m going to start looking in the forest, I heard some strange noises up there last night. Maybe I’ll see you later!",
+					"lineReference" : 0,
+					"flag_companion" : false,
+					"flag_location" : "forest"
+				},
+				{
+					"responseType" : "negative",
+					"words_EN" : "You couldn’t help me if you wanted to, I was just joking. Stealing someone’s breakfast, how silly. I just haven’t eaten yet. I hear Dr. Gellock is mad for corn flakes, maybe he’ll share some. See you later!",
+					"lineReference" : 0,
+					"flag_companion" : false,
+					"flag_location" : "lab"
+				}
+			]
+		}
+	]
+}
